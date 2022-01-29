@@ -1,13 +1,20 @@
 <html>
-    <head>
-        <title>Todo List</title>
-    </head>
-    <body>
-        <div>
-            <input type='text' name='todo_input'>
-            <button type='submit'>Add Todo</button>
-            <div class='todos'></div>
-        </div>
-    </body>
-    <script src='./script.js'></script>
+
+<head>
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div>
+        <input type='text' name='todo_input'>
+        <button type='submit'>Add Todo</button>
+        <select id="dropdown">
+            <option id="completed" value="completed">Completed</option>
+            <option id="pending" value="pending">Pending</option>
+        </select>
+        <div class='todos'></div>
+    </div>
+</body>
+<script src='./script.js'></script>
+
 </html>
